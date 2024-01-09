@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+.Container{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    place-items: center;
+}
+
+.Vermelho{
+    background-color: rgb(162, 30, 30);
+    color: white;
+    transition: all 0.25 ease-in-out;
+}
+
+.Azul{
+    background-color: rgb(32, 32, 135);
+    color: white;
+    transition: all 0.25 ease-in-out;
+}
+
+.Verde{
+    background-color: rgb(13, 193, 124);
+    transition: all 0.25 ease-in-out;
+}
+
+button{
+    padding: 5px 10px;
+    border: 0.50%;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0 10px;
+}
+
